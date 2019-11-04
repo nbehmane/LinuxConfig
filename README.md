@@ -1,2 +1,5 @@
-# nemux
-All dotfiles and package lists for my Arch setup
+# Linux Configurations
+# by Nima Behmanesh
+
+This contains all of my dotfiles and configurations for various programs
+on my archlinux system. This will eventually hold an LFS project too.
