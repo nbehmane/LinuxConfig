@@ -1,0 +1,79 @@
+
+! ██╗  ██╗██████╗ ███████╗███████╗ ██████╗ ██╗   ██╗██████╗  ██████╗███████╗███████╗
+! ╚██╗██╔╝██╔══██╗██╔════╝██╔════╝██╔═══██╗██║   ██║██╔══██╗██╔════╝██╔════╝██╔════╝
+!  ╚███╔╝ ██████╔╝█████╗  ███████╗██║   ██║██║   ██║██████╔╝██║     █████╗  ███████╗
+!  ██╔██╗ ██╔══██╗██╔══╝  ╚════██║██║   ██║██║   ██║██╔══██╗██║     ██╔══╝  ╚════██║
+! ██╔╝ ██╗██║  ██║███████╗███████║╚██████╔╝╚██████╔╝██║  ██║╚██████╗███████╗███████║
+! ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝╚══════╝
+! By Nima Behmanesh                                                                                  
+                                                                                  
+! urxvt Settings
+
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: yellow
+Xft.dpi: 82
+! Font for URxvt
+URxvt*font: xft:Source Code Pro Medium:size=14
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+URxvt.letterspace: 1
+
+! Colors
+#define FOREGROUND #ffffff
+#define BACKGROUND #F8F8F8
+
+! Neon Colors
+#define COLOR0  #171717
+#define COLOR8  #38242C
+#define COLOR1  #D81765
+#define COLOR9  #FF0000
+#define COLOR2  #97D01A
+#define COLOR10 #76B639
+#define COLOR3  #FFA800
+#define COLOR11 #E1A126
+#define COLOR4  #16B1FB
+#define COLOR12 #289CD5
+#define COLOR5  #FF2491
+#define COLOR13 #FF2491
+#define COLOR6  #0FDCB6 
+#define COLOR14 #0A9B81 
+#define COLOR7  #EBEBEB
+#define COLOR15 #F8F8F8
+
+! Active Colors
+*background : BACKGROUND
+*foreground : FOREGROUND
+! black
+*color0 : COLOR0
+*color8 : COLOR8
+! red
+*color1 : COLOR1
+*color9 : COLOR9
+! green
+*color2 : COLOR2
+*color10 : COLOR10
+! yellow
+*color3 : COLOR3
+*color11 : COLOR11
+! blue
+*color4  : COLOR4
+*color12 : COLOR12
+! magenta
+*color5  : COLOR5
+*color13 : COLOR13
+! cyan
+*color6  : COLOR6
+*color14 : #0A9B81
+! white
+*color7  : COLOR7
+*color15 : COLOR15
